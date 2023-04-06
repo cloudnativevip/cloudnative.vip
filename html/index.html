@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,160 +12,176 @@
     <link href="css/rs.css" rel="stylesheet">
     <link href="/favicon.ico" rel="icon">
 </head>
+
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-top">
-        <div class="container">
-            <a class="navbar-brand mr-auto mr-lg-0" href="index.html">
-                <img src="images/logo.png" alt="cncf.vip" width="210px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">首页</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#project">项目</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">关于</a>
-                    </li>
-                </ul>
-                <a href="https://github.com/cncfvip/cncf.vip" target="_blank">
-                    <svg width="30" height="30" style="enable-background:new 0 0 512 512;color:#fff;fill: currentColor" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-                        <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
-                    </svg>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-top">
+            <div class="container">
+                <a class="navbar-brand mr-auto mr-lg-0" href="index.html">
+                    <img src="images/logo.png" alt="cncf.vip" width="210px">
                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#project">项目</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">关于</a>
+                        </li>
+                    </ul>
+                    <a href="https://github.com/cncfvip/cncf.vip" target="_blank">
+                        <svg width="30" height="30"
+                            style="enable-background:new 0 0 512 512;color:#fff;fill: currentColor" version="1.1"
+                            viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="main-container">
+        <div class="jumbotron jumbotron-fluid home-banner bg-tertiary">
+            <span class="mask bg-tertiary alpha-9"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h1 class="display-4">让</h1>
+                        <h1 class="display-4">云原生</h1>
+                        <h2 class="display-4">无处不在！</h2>
+                        <hr class="my-4">
+                        <p>云原生VIP社区是全球最大的云原生VIP类型的社区。加入我们，做云时代的VIP合作伙伴。</p>
+                        <a class="btn btn-primary btn-lg" href="index.html#about" role="button">关于云原生VIP社区</a>
+                    </div>
+                    <div class="col-md-5">
+                        <!-- Image -->
+                        <figure class="w-100">
+                            <img alt="Image placeholder" src="images/3.svg" class="img-fluid mw-md-120">
+                        </figure>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-</header>
-<main role="main" class="main-container">
-    <div class="jumbotron jumbotron-fluid home-banner bg-tertiary">
-        <span class="mask bg-tertiary alpha-9"></span>
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <h1 class="display-4">让</h1>
-                    <h1 class="display-4">云原生</h1>
-                    <h2 class="display-4">无处不在！</h2>
-                    <hr class="my-4">
-                    <p>云原生VIP社区是全球最大的云原生VIP类型的社区。加入我们，做云时代的VIP合作伙伴。</p>
-                    <a class="btn btn-primary btn-lg" href="index.html#about" role="button">关于云原生VIP社区</a>
+                <div class="col">
+                    <a id="project"></a>
+                    <h1>云原生VIP社区项目</h1>
                 </div>
-                <div class="col-md-5">
-                    <!-- Image -->
-                    <figure class="w-100">
-                        <img alt="Image placeholder" src="images/3.svg" class="img-fluid mw-md-120">
-                    </figure>
+            </div>
+            <div class="my-3"></div>
+            <div class="row row-cols-1 row-cols-md-4">
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/go-zeus.png" class="card-img-top" alt="go-zeus">
+                        <div class="card-body">
+                            <h5 class="card-title">go-zeus</h5>
+                            <p class="card-text">go-zeus是一个使用golang技术栈开发的微服务框架（神王框架） go-zeus是一个0依赖可插拔的微服务框架...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/freemesh.png" class="card-img-top" alt="freemesh">
+                        <div class="card-body">
+                            <h5 class="card-title">freemesh</h5>
+                            <p class="card-text">freemesh是新一代服务网格产品，可以叫她云原生框架，也可以叫异地多活框架。是构建大型分布式应用的基石...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/vue-admin.png" class="card-img-top" alt="vue-admin">
+                        <div class="card-body">
+                            <h5 class="card-title">vue-admin</h5>
+                            <p class="card-text">vue-admin是一个后台管理脚手架，由vue3 + vite + typescript + element-plus + pinia +
+                                vue-router技术...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/jqqd.png" class="card-img-top" alt="vue-admin">
+                        <div class="card-body">
+                            <h5 class="card-title">更多...</h5>
+                            <p class="card-text">云原生之路刚刚开始，我们期待更多的优秀项目加入进来。欢迎加入我们热情的全球VIP社区并推进云原生项目...</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col" >
-                <a id="project"></a>
-                <h1>云原生VIP社区项目</h1>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="my-3"></div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="col">
+                            <h1>加入VIP社区</h1>
+                            <div class="my-3"></div>
+                            <h4>成为VIP会员</h4>
+                            <p>塑造生态系统并推动与 1500 多个成员的跨公司协作。</p>
+                            <h4>贡献者</h4>
+                            <p>从编码员到创意人员，加入我们热情的全球VIP社区并推进 CNCF 云原生项目。</p>
+                            <h4>终端用户</h4>
+                            <p>与同行、项目维护者和 CNCF 密切合作，加速您的采用。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Image -->
+                        <figure class="w-100">
+                            <img alt="Image placeholder" src="images/13.svg" class="img-fluid mw-md-120">
+                        </figure>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="my-3"></div>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-              <div class="card">
-                <img src="images/go-zeus.png" class="card-img-top" alt="go-zeus">
-                <div class="card-body">
-                  <h5 class="card-title">go-zeus</h5>
-                  <p class="card-text">go-zeus是一个使用golang技术栈开发的微服务框架（神王框架） go-zeus是一个0依赖可插拔的微服务框架...</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card">
-                <img src="images/freemesh.png" class="card-img-top" alt="freemesh">
-                <div class="card-body">
-                  <h5 class="card-title">freemesh</h5>
-                  <p class="card-text">freemesh是新一代服务网格产品，可以叫她云原生框架，也可以叫异地多活框架。是构建大型分布式应用的基石...</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card">
-                <img src="images/vue-admin.png" class="card-img-top" alt="vue-admin">
-                <div class="card-body">
-                  <h5 class="card-title">vue-admin</h5>
-                  <p class="card-text">vue-admin是一个后台管理脚手架，由vue3+vite+element-plus+TypeScript技术栈开发。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="my-3"></div>
             <div class="row">
-                <div class="col-md-8">
-                    <div class="col">
-                        <h1>加入VIP社区</h1>
-                        <div class="my-3"></div>
-                        <h4>成为VIP会员</h4>
-                        <p>塑造生态系统并推动与 1500 多个成员的跨公司协作。</p>
-                        <h4>贡献者</h4>
-                        <p>从编码员到创意人员，加入我们热情的全球VIP社区并推进 CNCF 云原生项目。</p>
-                        <h4>终端用户</h4>
-                        <p>与同行、项目维护者和 CNCF 密切合作，加速您的采用。</p>
-                    </div>
-                </div>
                 <div class="col-md-4">
                     <!-- Image -->
                     <figure class="w-100">
-                        <img alt="Image placeholder" src="images/13.svg" class="img-fluid mw-md-120">
+                        <img alt="Image placeholder" src="images/11.svg" class="img-fluid mw-md-120">
                     </figure>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="my-3"></div>
-        <div class="row">
-            <div class="col-md-4">
-                <!-- Image -->
-                <figure class="w-100">
-                    <img alt="Image placeholder" src="images/11.svg" class="img-fluid mw-md-120">
-                </figure>
-            </div>
-            <div class="col-md-8">
-                <div class="col">
-                    <a id="about"></a>
-                    <h1>关于</h1>
-                    <p>云原生VIP社区是全球最大的云原生VIP类型的社区。社区目标:致力于构建全球最专业的云原生开发者VIP社区、促进云原生知识的传播、孵化原创的云原生开源项目。 </p>
-                    <p>云原生是基于分布部署和统一运管的分布式云，以容器、微服务、DevOps等技术为基础建立的一套新型云技术产品体系，是云计算未来的发展方向。</p>
-                    <p>云原生VIP社区服务于<a href="https://cncf.vip" target="_blank">云原生计算基础CNCF.VIP</a></p>
+                <div class="col-md-8">
+                    <div class="col">
+                        <a id="about"></a>
+                        <h1>关于</h1>
+                        <p>云原生VIP社区是全球最大的云原生VIP类型的社区。社区目标:致力于构建全球最专业的云原生开发者VIP社区、促进云原生知识的传播、孵化原创的云原生开源项目。 </p>
+                        <p>云原生是基于分布部署和统一运管的分布式云，以容器、微服务、DevOps等技术为基础建立的一套新型云技术产品体系，是云计算未来的发展方向。</p>
+                        <p>云原生VIP社区服务于<a href="https://cncf.vip" target="_blank">云原生计算基础CNCF.VIP</a></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
-<footer class="footer py-3 bg-light">
-    <div class="container">
-        <span class="text-muted">©2009-2023 云原生VIP社区</span>
-    </div>
-</footer>
-<script src="js/jquery.slim.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?34b4cd9fb38fd5b6c16853244ffe8d5b";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script>    
+    <footer class="footer py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">©2009-2023 云原生VIP社区</span>
+        </div>
+    </footer>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?34b4cd9fb38fd5b6c16853244ffe8d5b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </body>
+
 </html>
